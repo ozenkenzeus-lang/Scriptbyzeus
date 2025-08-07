@@ -1,181 +1,181 @@
--- GUI BY ZEUS - MENU FRAM BOSS (kéo + nút đóng)
+LS0gR1VJIEJZIFpFVVMgLSBNRU5VIEZSQU0gQk9TUyAoa+lvICsgbvp0IPNuZyk=
 
--- GUI setup
-local ScreenGui = Instance.new("ScreenGui")
-ScreenGui.Name = "FramBossGUI"
-ScreenGui.ResetOnSpawn = false
-ScreenGui.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+LS0gR1VJIHNldHVw
+bG9jYWwgU2NyZWVuR3VpID0gSW5zdGFuY2UubmV3KCJTY3JlZW5HdWkiKQ==
+U2NyZWVuR3VpLk5hbWUgPSAiRnJhbUJvc3NHVUki
+U2NyZWVuR3VpLlJlc2V0T25TcGF3biA9IGZhbHNl
+U2NyZWVuR3VpLlBhcmVudCA9IGdhbWUuUGxheWVycy5Mb2NhbFBsYXllcjpXYWl0Rm9yQ2hpbGQoIlBsYXllckd1aSIp
 
--- Toggle Button để mở menu
-local toggleButton = Instance.new("TextButton")
-toggleButton.Size = UDim2.new(0, 120, 0, 30)
-toggleButton.Position = UDim2.new(0, 10, 0, 10)
-toggleButton.Text = "🤚🏻Fram Bos"
-toggleButton.TextColor3 = Color3.new(1,1,1)
-toggleButton.BackgroundColor3 = Color3.fromRGB(80, 80, 80)
-toggleButton.Parent = ScreenGui
+LS0gVG9nZ2xlIEJ1dHRvbiAgbSBtZW51
+bG9jYWwgdG9nZ2xlQnV0dG9uID0gSW5zdGFuY2UubmV3KCJUZXh0QnV0dG9uIik=
+dG9nZ2xlQnV0dG9uLlNpemUgPSBVRGltMi5uZXcoMCwgMTIwLCAwLCAzMCk=
+dG9nZ2xlQnV0dG9uLlBvc2l0aW9uID0gVURpbTIubmV3KDAsIDEwLCAwLCAxMCk=
+dG9nZ2xlQnV0dG9uLlRleHQgPSAiRnJhbSBCb3Mi
+dG9nZ2xlQnV0dG9uLlRleHRDb2xvcjMgPSBDb2xvcjMubmV3KDEsMSwxKQ==
+dG9nZ2xlQnV0dG9uLkJhY2tncm91bmRDb2xvcjMgPSBDb2xvcjMuZnJvbVJHQig4MCwgODAsIDgwKQ==
+dG9nZ2xlQnV0dG9uLlBhcmVudCA9IFNjcmVlbkd1aQ==
 
--- Main Menu Frame
-local mainFrame = Instance.new("Frame")
-mainFrame.Size = UDim2.new(0, 300, 0, 200)
-mainFrame.Position = UDim2.new(0, 10, 0, 50)
-mainFrame.BackgroundColor3 = Color3.fromRGB(255, 210, 220)
-mainFrame.BorderSizePixel = 3
-mainFrame.Visible = false
-mainFrame.Active = true
-mainFrame.Draggable = true
-mainFrame.Parent = ScreenGui
+LS0gTWFpbiBNZW51IEZyYW1l
+bG9jYWwgbWFpbkZyYW1lID0gSW5zdGFuY2UubmV3KCJGcmFtZSIp
+bWFpbkZyYW1lLlNpemUgPSBVRGltMi5uZXcoMCwgMzAwLCAwLCAyMDAp
+bWFpbkZyYW1lLlBvc2l0aW9uID0gVURpbTIubmV3KDAsIDEwLCAwLCA1MCk=
+bWFpbkZyYW1lLkJhY2tncm91bmRDb2xvcjMgPSBDb2xvcjMuZnJvbVJHQigyNTUsIDIxMCwgMjIwKQ==
+bWFpbkZyYW1lLkJvcmRlclNpemVQaXhlbCA9IDM=
+bWFpbkZyYW1lLlZpc2libGUgPSBmYWxzZQ==
+bWFpbkZyYW1lLkFjdGl2ZSA9IHRydWU=
+bWFpbkZyYW1lLkRyYWdnYWJsZSA9IHRydWU=
+bWFpbkZyYW1lLlBhcmVudCA9IFNjcmVlbkd1aQ==
 
--- Close Button (❌)
-local closeButton = Instance.new("TextButton")
-closeButton.Size = UDim2.new(0, 30, 0, 30)
-closeButton.Position = UDim2.new(1, -35, 0, 5)
-closeButton.Text = "❌"
-closeButton.TextColor3 = Color3.new(1, 1, 1)
-closeButton.BackgroundColor3 = Color3.fromRGB(200, 60, 60)
-closeButton.Parent = mainFrame
-closeButton.MouseButton1Click:Connect(function()
-	mainFrame.Visible = false
-end)
+LS0gQ2xvc2UgQnV0dG9uICgp
+bG9jYWwgY2xvc2VCdXR0b24gPSBJbnN0YW5jZS5uZXcoIlRleHRCdXR0b24iKQ==
+Y2xvc2VCdXR0b24uU2l6ZSA9IFVEaW0yLm5ldygwLCAzMCwgMCwgMzAp
+Y2xvc2VCdXR0b24uUG9zaXRpb24gPSBVRGltMi5uZXcoMSwgLTM1LCAwLCA1KQ==
+Y2xvc2VCdXR0b24uVGV4dCA9ICIi
+Y2xvc2VCdXR0b24uVGV4dENvbG9yMyA9IENvbG9yMy5uZXcoMSwgMSwgMSk=
+Y2xvc2VCdXR0b24uQmFja2dyb3VuZENvbG9yMyA9IENvbG9yMy5mcm9tUkdCKDIwMCwgNjAsIDYwKQ==
+Y2xvc2VCdXR0b24uUGFyZW50ID0gbWFpbkZyYW1l
+Y2xvc2VCdXR0b24uTW91c2VCdXR0b24xQ2xpY2s6Q29ubmVjdChmdW5jdGlvbigp
+CW1haW5GcmFtZS5WaXNpYmxlID0gZmFsc2U=
+ZW5kKQ==
 
--- Title
-local title = Instance.new("TextLabel")
-title.Size = UDim2.new(1, -40, 0, 40)
-title.Position = UDim2.new(0, 0, 0, 0)
-title.Text = "MENU FRAM BOSS"
-title.TextScaled = true
-title.TextColor3 = Color3.new(1,1,1)
-title.BackgroundColor3 = Color3.fromRGB(80, 80, 80)
-title.Parent = mainFrame
+LS0gVGl0bGU=
+bG9jYWwgdGl0bGUgPSBJbnN0YW5jZS5uZXcoIlRleHRMYWJlbCIp
+dGl0bGUuU2l6ZSA9IFVEaW0yLm5ldygxLCAtNDAsIDAsIDQwKQ==
+dGl0bGUuUG9zaXRpb24gPSBVRGltMi5uZXcoMCwgMCwgMCwgMCk=
+dGl0bGUuVGV4dCA9ICJNRU5VIEZSQU0gQk9TUyI=
+dGl0bGUuVGV4dFNjYWxlZCA9IHRydWU=
+dGl0bGUuVGV4dENvbG9yMyA9IENvbG9yMy5uZXcoMSwxLDEp
+dGl0bGUuQmFja2dyb3VuZENvbG9yMyA9IENvbG9yMy5mcm9tUkdCKDgwLCA4MCwgODAp
+dGl0bGUuUGFyZW50ID0gbWFpbkZyYW1l
 
--- Button generator
-local function createOptionButton(text, posY)
-	local btn = Instance.new("TextButton")
-	btn.Size = UDim2.new(1, -20, 0, 30)
-	btn.Position = UDim2.new(0, 10, 0, posY)
-	btn.Text = text
-	btn.TextColor3 = Color3.new(1,1,1)
-	btn.BackgroundColor3 = Color3.fromRGB(80, 80, 80)
-	btn.Parent = mainFrame
-	return btn
-end
+LS0gQnV0dG9uIGdlbmVyYXRvcg==
+bG9jYWwgZnVuY3Rpb24gY3JlYXRlT3B0aW9uQnV0dG9uKHRleHQsIHBvc1kp
+CWxvY2FsIGJ0biA9IEluc3RhbmNlLm5ldygiVGV4dEJ1dHRvbiIp
+CWJ0bi5TaXplID0gVURpbTIubmV3KDEsIC0yMCwgMCwgMzAp
+CWJ0bi5Qb3NpdGlvbiA9IFVEaW0yLm5ldygwLCAxMCwgMCwgcG9zWSk=
+CWJ0bi5UZXh0ID0gdGV4dA==
+CWJ0bi5UZXh0Q29sb3IzID0gQ29sb3IzLm5ldygxLDEsMSk=
+CWJ0bi5CYWNrZ3JvdW5kQ29sb3IzID0gQ29sb3IzLmZyb21SR0IoODAsIDgwLCA4MCk=
+CWJ0bi5QYXJlbnQgPSBtYWluRnJhbWU=
+CXJldHVybiBidG4=
+ZW5k
 
--- Nút chức năng
-local autoHitBtn = createOptionButton("-Auto Đánh Boss", 50)
-local aroundBtn = createOptionButton("-chạy xung quanh boss", 90)
-local autoPickBtn = createOptionButton("-tự động nhặt vật phẩm", 130)
+LS0gTvp0IGNoYyBubmc=
+bG9jYWwgYXV0b0hpdEJ0biA9IGNyZWF0ZU9wdGlvbkJ1dHRvbigiLUF1dG8g4W5oIEJvc3MiLCA1MCk=
+bG9jYWwgYXJvdW5kQnRuID0gY3JlYXRlT3B0aW9uQnV0dG9uKCItY2h5IHh1bmcgcXVhbmggYm9zcyIsIDkwKQ==
+bG9jYWwgYXV0b1BpY2tCdG4gPSBjcmVhdGVPcHRpb25CdXR0b24oIi10IG5nIG5odCB2dCBwaG0iLCAxMzAp
 
--- Trạng thái chức năng
-local autoHit = false
-local runAround = false
-local autoPick = false
+LS0gVHJuZyB0aOFpIGNoYyBubmc=
+bG9jYWwgYXV0b0hpdCA9IGZhbHNl
+bG9jYWwgcnVuQXJvdW5kID0gZmFsc2U=
+bG9jYWwgYXV0b1BpY2sgPSBmYWxzZQ==
 
--- Toggle hiện menu
-toggleButton.MouseButton1Click:Connect(function()
-	mainFrame.Visible = not mainFrame.Visible
-end)
+LS0gVG9nZ2xlIGhpbiBtZW51
+dG9nZ2xlQnV0dG9uLk1vdXNlQnV0dG9uMUNsaWNrOkNvbm5lY3QoZnVuY3Rpb24oKQ==
+CW1haW5GcmFtZS5WaXNpYmxlID0gbm90IG1haW5GcmFtZS5WaXNpYmxl
+ZW5kKQ==
 
--- Vũ khí cho phép
-local allowedWeapons = {
-	["PhongLon"] = true,
-	["Trường Thương"] = true,
-}
+LS0gViBraO0gY2hvIHBo6XA=
+bG9jYWwgYWxsb3dlZFdlYXBvbnMgPSB7
+CVsiUGhvbmdMb24iXSA9IHRydWUs
+CVsiVHJuZyBUaG5nIl0gPSB0cnVlLA==
+fQ==
 
--- Tìm boss NPC2
-local function getBoss()
-	for _,v in pairs(workspace:GetDescendants()) do
-		if v:IsA("Model") and v.Name == "NPC2" and v:FindFirstChild("HumanoidRootPart") then
-			return v
-		end
-	end
-end
+LS0gVOxtIGJvc3MgTlBDMg==
+bG9jYWwgZnVuY3Rpb24gZ2V0Qm9zcygp
+CWZvciBfLHYgaW4gcGFpcnMod29ya3NwYWNlOkdldERlc2NlbmRhbnRzKCkpIGRv
+CQlpZiB2OklzQSgiTW9kZWwiKSBhbmQgdi5OYW1lID09ICJOUEMyIiBhbmQgdjpGaW5kRmlyc3RDaGlsZCgiSHVtYW5vaWRSb290UGFydCIpIHRoZW4=
+CQkJcmV0dXJuIHY=
+CQllbmQ=
+CWVuZA==
+ZW5k
 
--- Đánh boss mỗi 3.1s
-task.spawn(function()
-	while task.wait(3.1) do
-		if autoHit then
-			local boss = getBoss()
-			if boss then
-				local tool = game.Players.LocalPlayer.Character:FindFirstChildOfClass("Tool")
-				if tool and allowedWeapons[tool.Name] then
-					for _,v in pairs(tool:GetDescendants()) do
-						if v:IsA("RemoteEvent") or v:IsA("RemoteFunction") then
-							pcall(function()
-								v:FireServer(boss.Humanoid)
-							end)
-						end
-					end
-				end
-			end
-		end
-	end
-end)
+LS0g4W5oIGJvc3MgbWkgMy4xcw==
+dGFzay5zcGF3bihmdW5jdGlvbigp
+CXdoaWxlIHRhc2sud2FpdCgzLjEpIGRv
+CQlpZiBhdXRvSGl0IHRoZW4=
+CQkJbG9jYWwgYm9zcyA9IGdldEJvc3MoKQ==
+CQkJaWYgYm9zcyB0aGVu
+CQkJCWxvY2FsIHRvb2wgPSBnYW1lLlBsYXllcnMuTG9jYWxQbGF5ZXIuQ2hhcmFjdGVyOkZpbmRGaXJzdENoaWxkT2ZDbGFzcygiVG9vbCIp
+CQkJCWlmIHRvb2wgYW5kIGFsbG93ZWRXZWFwb25zW3Rvb2wuTmFtZV0gdGhlbg==
+CQkJCQlmb3IgXyx2IGluIHBhaXJzKHRvb2w6R2V0RGVzY2VuZGFudHMoKSkgZG8=
+CQkJCQkJaWYgdjpJc0EoIlJlbW90ZUV2ZW50Iikgb3IgdjpJc0EoIlJlbW90ZUZ1bmN0aW9uIikgdGhlbg==
+CQkJCQkJCXBjYWxsKGZ1bmN0aW9uKCk=
+CQkJCQkJCQl2OkZpcmVTZXJ2ZXIoYm9zcy5IdW1hbm9pZCk=
+CQkJCQkJCWVuZCk=
+CQkJCQkJZW5k
+CQkJCQllbmQ=
+CQkJCWVuZA==
+CQkJZW5k
+CQllbmQ=
+CWVuZA==
+ZW5kKQ==
 
--- Chạy quanh boss (bán kính 21)
-task.spawn(function()
-	while task.wait(0.1) do
-		if runAround then
-			local boss = getBoss()
-			if boss then
-				local angle = tick() % (2 * math.pi)
-				local radius = 21
-				local offset = Vector3.new(math.cos(angle) * radius, 0, math.sin(angle) * radius)
-				game.Players.LocalPlayer.Character:MoveTo(boss.HumanoidRootPart.Position + offset)
-			end
-		end
-	end
-end)
+LS0gQ2h5IHF1YW5oIGJvc3MgKGLhbiBr7W5oIDIxKQ==
+dGFzay5zcGF3bihmdW5jdGlvbigp
+CXdoaWxlIHRhc2sud2FpdCgwLjEpIGRv
+CQlpZiBydW5Bcm91bmQgdGhlbg==
+CQkJbG9jYWwgYm9zcyA9IGdldEJvc3MoKQ==
+CQkJaWYgYm9zcyB0aGVu
+CQkJCWxvY2FsIGFuZ2xlID0gdGljaygpICUgKDIgKiBtYXRoLnBpKQ==
+CQkJCWxvY2FsIHJhZGl1cyA9IDIx
+CQkJCWxvY2FsIG9mZnNldCA9IFZlY3RvcjMubmV3KG1hdGguY29zKGFuZ2xlKSAqIHJhZGl1cywgMCwgbWF0aC5zaW4oYW5nbGUpICogcmFkaXVzKQ==
+CQkJCWdhbWUuUGxheWVycy5Mb2NhbFBsYXllci5DaGFyYWN0ZXI6TW92ZVRvKGJvc3MuSHVtYW5vaWRSb290UGFydC5Qb3NpdGlvbiArIG9mZnNldCk=
+CQkJZW5k
+CQllbmQ=
+CWVuZA==
+ZW5kKQ==
 
--- Tự nhặt vật phẩm
-task.spawn(function()
-	while task.wait(1) do
-		if autoPick then
-			for _,v in pairs(workspace:GetDescendants()) do
-				if v:IsA("Tool") and v:FindFirstChild("Handle") then
-					firetouchinterest(game.Players.LocalPlayer.Character.HumanoidRootPart, v.Handle, 0)
-					firetouchinterest(game.Players.LocalPlayer.Character.HumanoidRootPart, v.Handle, 1)
-				end
-			end
-		end
-	end
-end)
+LS0gVCBuaHQgdnQgcGht
+dGFzay5zcGF3bihmdW5jdGlvbigp
+CXdoaWxlIHRhc2sud2FpdCgxKSBkbw==
+CQlpZiBhdXRvUGljayB0aGVu
+CQkJZm9yIF8sdiBpbiBwYWlycyh3b3Jrc3BhY2U6R2V0RGVzY2VuZGFudHMoKSkgZG8=
+CQkJCWlmIHY6SXNBKCJUb29sIikgYW5kIHY6RmluZEZpcnN0Q2hpbGQoIkhhbmRsZSIpIHRoZW4=
+CQkJCQlmaXJldG91Y2hpbnRlcmVzdChnYW1lLlBsYXllcnMuTG9jYWxQbGF5ZXIuQ2hhcmFjdGVyLkh1bWFub2lkUm9vdFBhcnQsIHYuSGFuZGxlLCAwKQ==
+CQkJCQlmaXJldG91Y2hpbnRlcmVzdChnYW1lLlBsYXllcnMuTG9jYWxQbGF5ZXIuQ2hhcmFjdGVyLkh1bWFub2lkUm9vdFBhcnQsIHYuSGFuZGxlLCAxKQ==
+CQkJCWVuZA==
+CQkJZW5k
+CQllbmQ=
+CWVuZA==
+ZW5kKQ==
 
--- Toggle chức năng
-autoHitBtn.MouseButton1Click:Connect(function()
-	autoHit = not autoHit
-	autoHitBtn.Text = (autoHit and "✅ " or "-").."Auto Đánh Boss"
-end)
+LS0gVG9nZ2xlIGNoYyBubmc=
+YXV0b0hpdEJ0bi5Nb3VzZUJ1dHRvbjFDbGljazpDb25uZWN0KGZ1bmN0aW9uKCk=
+CWF1dG9IaXQgPSBub3QgYXV0b0hpdA==
+CWF1dG9IaXRCdG4uVGV4dCA9IChhdXRvSGl0IGFuZCAiICIgb3IgIi0iKS4uIkF1dG8g4W5oIEJvc3Mi
+ZW5kKQ==
 
-aroundBtn.MouseButton1Click:Connect(function()
-	runAround = not runAround
-	aroundBtn.Text = (runAround and "✅ " or "-").."chạy xung quanh boss"
-end)
+YXJvdW5kQnRuLk1vdXNlQnV0dG9uMUNsaWNrOkNvbm5lY3QoZnVuY3Rpb24oKQ==
+CXJ1bkFyb3VuZCA9IG5vdCBydW5Bcm91bmQ=
+CWFyb3VuZEJ0bi5UZXh0ID0gKHJ1bkFyb3VuZCBhbmQgIiAiIG9yICItIikuLiJjaHkgeHVuZyBxdWFuaCBib3NzIg==
+ZW5kKQ==
 
-autoPickBtn.MouseButton1Click:Connect(function()
-	autoPick = not autoPick
-	autoPickBtn.Text = (autoPick and "✅ " or "-").."tự động nhặt vật phẩm"
-end)
+YXV0b1BpY2tCdG4uTW91c2VCdXR0b24xQ2xpY2s6Q29ubmVjdChmdW5jdGlvbigp
+CWF1dG9QaWNrID0gbm90IGF1dG9QaWNr
+CWF1dG9QaWNrQnRuLlRleHQgPSAoYXV0b1BpY2sgYW5kICIgIiBvciAiLSIpLi4idCBuZyBuaHQgdnQgcGhtIg==
+ZW5kKQ==
 
--- Hiển thị máu boss
-local bossHealthLabel = Instance.new("TextLabel")
-bossHealthLabel.Size = UDim2.new(0, 300, 0, 30)
-bossHealthLabel.Position = UDim2.new(0, 140, 0, 10)
-bossHealthLabel.BackgroundTransparency = 0.3
-bossHealthLabel.BackgroundColor3 = Color3.fromRGB(100, 0, 0)
-bossHealthLabel.TextColor3 = Color3.new(1,1,1)
-bossHealthLabel.TextScaled = true
-bossHealthLabel.Text = "Đang tìm boss..."
-bossHealthLabel.Parent = ScreenGui
+LS0gSGluIHRoIG3hdSBib3Nz
+bG9jYWwgYm9zc0hlYWx0aExhYmVsID0gSW5zdGFuY2UubmV3KCJUZXh0TGFiZWwiKQ==
+Ym9zc0hlYWx0aExhYmVsLlNpemUgPSBVRGltMi5uZXcoMCwgMzAwLCAwLCAzMCk=
+Ym9zc0hlYWx0aExhYmVsLlBvc2l0aW9uID0gVURpbTIubmV3KDAsIDE0MCwgMCwgMTAp
+Ym9zc0hlYWx0aExhYmVsLkJhY2tncm91bmRUcmFuc3BhcmVuY3kgPSAwLjM=
+Ym9zc0hlYWx0aExhYmVsLkJhY2tncm91bmRDb2xvcjMgPSBDb2xvcjMuZnJvbVJHQigxMDAsIDAsIDAp
+Ym9zc0hlYWx0aExhYmVsLlRleHRDb2xvcjMgPSBDb2xvcjMubmV3KDEsMSwxKQ==
+Ym9zc0hlYWx0aExhYmVsLlRleHRTY2FsZWQgPSB0cnVl
+Ym9zc0hlYWx0aExhYmVsLlRleHQgPSAiYW5nIHTsbSBib3NzLi4uIg==
+Ym9zc0hlYWx0aExhYmVsLlBhcmVudCA9IFNjcmVlbkd1aQ==
 
-task.spawn(function()
-	while task.wait(0.5) do
-		local boss = getBoss()
-		if boss and boss:FindFirstChild("Humanoid") then
-			local hp = math.floor(boss.Humanoid.Health)
-			local max = math.floor(boss.Humanoid.MaxHealth)
-			bossHealthLabel.Text = "Máu boss NPC2: " .. hp .. " / " .. max
-		else
-			bossHealthLabel.Text = "Boss NPC2 không tồn tại!"
-		end
-	end
-end)
+dGFzay5zcGF3bihmdW5jdGlvbigp
+CXdoaWxlIHRhc2sud2FpdCgwLjUpIGRv
+CQlsb2NhbCBib3NzID0gZ2V0Qm9zcygp
+CQlpZiBib3NzIGFuZCBib3NzOkZpbmRGaXJzdENoaWxkKCJIdW1hbm9pZCIpIHRoZW4=
+CQkJbG9jYWwgaHAgPSBtYXRoLmZsb29yKGJvc3MuSHVtYW5vaWQuSGVhbHRoKQ==
+CQkJbG9jYWwgbWF4ID0gbWF0aC5mbG9vcihib3NzLkh1bWFub2lkLk1heEhlYWx0aCk=
+CQkJYm9zc0hlYWx0aExhYmVsLlRleHQgPSAiTeF1IGJvc3MgTlBDMjogIiAuLiBocCAuLiAiIC8gIiAuLiBtYXg=
+CQllbHNl
+CQkJYm9zc0hlYWx0aExhYmVsLlRleHQgPSAiQm9zcyBOUEMyIGto9G5nIHRuIHRpISI=
+CQllbmQ=
+CWVuZA==
+ZW5kKQ==
